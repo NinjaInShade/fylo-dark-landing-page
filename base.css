@@ -39,6 +39,8 @@
   --body: 1.25rem;
   --body-line-height: 30px;
 
+  --navbar-text: 1rem;
+
   --footer-body: 1.5rem;
   --footer-body-line-height: 24px;
 
@@ -114,7 +116,7 @@ h3 {
   line-height: var(--footer-body-line-height);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 550px) {
   :root {
     --h1: 1.5rem;
     --h1-line-height: 36px;
@@ -127,6 +129,8 @@ h3 {
 
     --body: 0.875rem;
     --body-line-height: 21px;
+
+    --navbar-text: 0.75rem;
 
     --footer-body: 1rem;
 
