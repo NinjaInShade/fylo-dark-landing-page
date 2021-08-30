@@ -3,4 +3,31 @@
   outline: none;
   border: none;
   cursor: pointer;
+  text-align: center;
+  font-size: var(--body-s);
+  padding: 16px 32px;
+  border-radius: 28px;
+}
+
+.btn-large {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.btn-primary {
+  color: #fff;
+  font-weight: 700;
+  background: var(--gradient);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: var(--green-hover);
+}
+
+@media (max-width: 550px) {
+  .btn-large {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
 }

@@ -87,6 +87,7 @@ h3 {
 }
 
 .body-s-text {
+  font-family: 'Open Sans', sans-serif;
   font-size: var(--body-s);
 }
 
