@@ -13,32 +13,128 @@
   font-size: 16px;
 
   /* Primary */
+  --green: #62e0d9;
+  --green-hover: #8adae3;
+
+  --gradient: linear-gradient(135deg, #63e1d9 0%, #34a0cd 100%);
+
+  --dark-blue: #07043b;
+
+  --error: #ff4242;
 
   /* Neutral */
+  --black: #1b2330;
+  --gray: #c0c0c0;
 
   /* Typography */
-  --h1: 1.75rem;
+  --h1: 2.5rem;
+  --h1-line-height: 60px;
 
-  --body: 1rem;
+  --h2: 2.5rem;
+  --h2-line-height: 50px;
+
+  --h3: 2rem;
+  --h3-line-height: 48px;
+
+  --body: 1.25rem;
+  --body-line-height: 30px;
+
+  --footer-body: 1.5rem;
+  --footer-body-line-height: 24px;
+
+  --body-s: 1rem;
+
+  --body-xs: 0.875rem;
+  --body-xs-line-height: 21px;
+
+  --input: 0.75rem;
+
+  --small: 0.625rem;
+  --small-line-height: 12px;
+  --small-letter-spacing: 0.5px;
+
+  --tiny: 0.438rem;
+  --tiny-line-height: 10px;
+  --tiny-letter-spacing: 0.5px;
 
   /* Other */
 }
 
 body {
+  background-color: var(--black);
 }
 
 h1 {
   font-size: var(--h1);
+  line-height: var(--h1-line-height);
+}
+
+h2 {
+  font-size: var(--h2);
+  line-height: var(--h2-line-height);
+}
+
+h3 {
+  font-size: var(--h3);
+  line-height: var(--h3-line-height);
 }
 
 .body-text {
   font-size: var(--body);
+  line-height: var(--body-line-height);
+}
+
+.body-s-text {
+  font-size: var(--body-s);
+}
+
+.body-xs-text {
+  font-size: var(--body-xs);
+  line-height: var(--body-xs-line-height);
+}
+
+.small-text {
+  font-size: var(--small);
+  line-height: var(--small-line-height);
+  letter-spacing: var(--small-letter-spacing);
+}
+
+.tiny-text {
+  font-size: var(--tiny);
+  line-height: var(--tiny-line-height);
+  letter-spacing: var(--tiny-letter-spacing);
+}
+
+.input-text {
+  font-size: var(--input);
+}
+
+.footer-body-text {
+  font-size: var(--footer-body);
+  line-height: var(--footer-body-line-height);
 }
 
 @media (max-width: 375px) {
   :root {
-    --h1: 22px;
+    --h1: 1.5rem;
+    --h1-line-height: 36px;
 
-    --body: 0.938rem;
+    --h2: 1.125rem;
+    --h2-line-height: 24px;
+
+    --h3: 1.125rem;
+    --h3-line-height: 24px;
+
+    --body: 0.875rem;
+    --body-line-height: 21px;
+
+    --footer-body: 1rem;
+
+    --body-s: 0.875rem;
+
+    --body-xs: 0.875rem;
+    --body-xs-line-height: 21px;
+
+    --input: 0.625rem;
   }
 }
