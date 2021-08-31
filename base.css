@@ -47,6 +47,8 @@
   --footer-body: 1.5rem;
   --footer-body-line-height: unset;
 
+  --anchor-text: 1rem;
+
   --body-s: 1rem;
 
   --body-xs: 0.875rem;
@@ -67,6 +69,10 @@
 
 body {
   background-color: var(--black);
+}
+
+main {
+  background: no-repeat url('./assets/bg-curvy-desktop.svg') top / cover;
 }
 
 h1 {
@@ -142,7 +148,7 @@ h3 {
     --feature-text: 1.125rem;
     --feature-line-height: 24px;
 
-    --navbar-text: 0.75rem;
+    --anchor-text: 0.75rem;
 
     --footer-body: 1rem;
 
