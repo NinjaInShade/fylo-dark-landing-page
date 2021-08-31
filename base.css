@@ -39,10 +39,13 @@
   --body: 1.25rem;
   --body-line-height: 30px;
 
+  --feature-text: 1.25rem;
+  --feature-line-height: 24px;
+
   --navbar-text: 1rem;
 
   --footer-body: 1.5rem;
-  --footer-body-line-height: 24px;
+  --footer-body-line-height: unset;
 
   --body-s: 1rem;
 
@@ -108,6 +111,11 @@ h3 {
   letter-spacing: var(--tiny-letter-spacing);
 }
 
+.feature-text {
+  font-size: var(--feature-text);
+  line-height: var(--feature-line-height);
+}
+
 .input-text {
   font-size: var(--input);
 }
@@ -131,14 +139,14 @@ h3 {
     --body: 0.875rem;
     --body-line-height: 21px;
 
+    --feature-text: 1.125rem;
+    --feature-line-height: 24px;
+
     --navbar-text: 0.75rem;
 
     --footer-body: 1rem;
 
     --body-s: 0.875rem;
-
-    --body-xs: 0.875rem;
-    --body-xs-line-height: 21px;
 
     --input: 0.625rem;
   }

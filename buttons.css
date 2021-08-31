@@ -22,7 +22,8 @@
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background: var(--green-hover);
+  transition: all 0.2s ease-in-out;
+  background: linear-gradient(135deg, var(--green-hover) 0%, var(--green-hover) 100%);
 }
 
 @media (max-width: 550px) {
