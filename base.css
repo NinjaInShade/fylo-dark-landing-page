@@ -20,6 +20,8 @@
 
   --dark-blue: #07043b;
 
+  --light-blue: #202a3c;
+
   --error: #ff4242;
 
   /* Neutral */
@@ -53,6 +55,9 @@
 
   --body-xs: 0.875rem;
   --body-xs-line-height: 21px;
+
+  --testimonial-text: 0.875rem;
+  --testimonial-line-height: unset;
 
   --input: 0.75rem;
 
@@ -149,6 +154,9 @@ h3 {
     --feature-line-height: 24px;
 
     --anchor-text: 0.75rem;
+
+    --testimonial-text: 0.625rem;
+    --testimonial-line-height: 18px;
 
     --footer-body: 1rem;
 
