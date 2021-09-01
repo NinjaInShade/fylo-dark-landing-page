@@ -39,7 +39,6 @@
 
 .features-container {
   display: grid;
-  justify-items: center;
   margin: 0 auto;
   max-width: 880px;
   grid-template-columns: repeat(2, 1fr);
@@ -55,6 +54,14 @@
   align-items: center;
   max-width: 350px;
   width: 100%;
+}
+
+#feature-left {
+  justify-self: flex-start;
+}
+
+#feature-right {
+  justify-self: flex-end;
 }
 
 .feature-title,
@@ -227,6 +234,11 @@
 @media (max-width: 615px) {
   .features-container {
     grid-template-columns: 1fr;
+  }
+
+  #feature-left,
+  #feature-right {
+    justify-self: center;
   }
 }
 
