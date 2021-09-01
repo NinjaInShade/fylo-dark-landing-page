@@ -136,6 +136,18 @@
   margin: 0 0 1px 8px;
 }
 
+.testimonials {
+  padding: 0 20px 200px 20px;
+}
+
+.testimonials-container {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  max-width: 1160px;
+  gap: 40px;
+}
+
 @media (max-width: 1050px) {
   .info-img {
     max-width: 400px;
