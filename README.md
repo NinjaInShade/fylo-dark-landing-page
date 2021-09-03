@@ -24,25 +24,36 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshots/Desktop_solution.png) -->
-<!-- ![](./screenshots/Mobile_solution.png) -->
+![](./screenshots/Desktop_solution.png)
+![](./screenshots/Mobile_solution.png)
 
 ### Links
 
-<!-- - Solution URL: (https://www.frontendmentor.io/solutions/responsive-order-summary-card-TFXa8ZDRV) -->
-<!-- - Live Site URL: (https://lm-fylo-dark-landing-page.netlify.app/) -->
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-dark-themed-landing-page-Y1P_lXkB_)
+- Live Site URL: (https://lm-fylo-dark-landing-page.netlify.app/)
 
 ## My process
 
 ### Built with
 
+- CSS Grid
 - Semantic HTML5 markup
 - CSS custom properties/vars
 - Desktop-first workflow
 
-### What I learned
+### What I learned/practiced
 
-Not done yet.
+I practiced using grid to make fluid, wrapping layouts. I used this:
+
+```css
+.testimonials-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 40px;
+}
+```
+
+The auto-fit and minmax values are great for making responsive grid layouts, and require minimal work and basically no media queries, works pretty much out the box!
 
 ## Author
 
