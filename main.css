@@ -346,7 +346,9 @@
 
 .footer-link a {
   color: #fff;
+  display: block;
   font-family: 'Open Sans', sans-serif;
+  min-width: 79px;
   font-size: 1rem;
 }
 
@@ -411,6 +413,38 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer-main {
+    flex-direction: column;
+    gap: unset;
+  }
+
+  .footer-socials {
+    align-self: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    margin: 55px 0;
+  }
+
+  .footer-links ul:first-child {
+    margin: 0 0 48px 0;
+  }
+
+  .footer-contacts {
+    margin-top: 16px;
+  }
+
+  .footer-logo {
+    margin-bottom: 35px;
+  }
+
+  .footer {
+    padding-top: 260px;
   }
 }
 
