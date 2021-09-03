@@ -215,21 +215,23 @@
       </section>
 
       <div class="sub-form">
-        <form class="sub-form-container">
+        <form class="sub-form-container" onsubmit="validateForm(event)">
           <h3 class="sub-form-title">Get early access today</h3>
           <p class="sub-form-text sub-form-description">
             It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
             questions, our support team would be happy to help you.
           </p>
           <div class="sub-form-flex">
-            <div class="sub-form-input-container">
+            <div class="sub-form-input-container" id="sub-form">
               <input type="text" class="input-text sub-form-input" placeholder="email@example.com" />
-              <small class="error-text sub-form-error">Form is currently valid</small>
+              <small class="error-text sub-form-error" id="error">Form is currently valid</small>
             </div>
-            <a href="./index.html" class="btn btn-primary">Get Started For Free</a>
+            <button href="./index.html" class="btn btn-primary" type="submit">Get Started For Free</button>
           </div>
         </form>
       </div>
     </main>
+
+    <script src="./main.js"></script>
   </body>
 </html>
