@@ -208,8 +208,10 @@
 }
 
 .sub-form {
+  position: relative;
   margin-bottom: -116px;
   padding: 0 20px;
+  z-index: 2;
 }
 
 .sub-form-container {
@@ -218,6 +220,7 @@
   box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.25);
   padding: 42px 75px 22px 75px;
   max-width: 865px;
+  border-radius: 9px;
 }
 
 .sub-form-title,
@@ -265,6 +268,126 @@
   color: var(--error-colour);
   margin: 5px 0 0 38px;
   font-weight: 700;
+}
+
+.footer {
+  background-color: var(--dark-black);
+  padding: 170px 20px 53px 20px;
+}
+
+.footer-container {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.footer-logo {
+  margin-bottom: 52px;
+  max-width: 108px;
+  width: 100%;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.footer-location {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-location svg {
+  min-width: 13px;
+  min-height: 18px;
+  margin-top: 4px;
+}
+
+.footer-location-text {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: left;
+  margin-left: 16px;
+  max-width: 340px;
+}
+
+.footer-contacts li:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-contact a {
+  color: #fff;
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-links ul:first-child {
+  margin-right: 80px;
+}
+
+.footer-link:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.footer-link a {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.footer-link a:hover {
+  font-weight: 700;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social:not(:last-child) {
+  margin-right: 12px;
+}
+
+.footer-social a {
+  position: relative;
+  display: block;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.footer-social svg {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.footer-social a:hover {
+  transition: all 0.2s ease-in-out;
+  border: 1px solid var(--green);
+}
+
+.footer-social a:hover svg {
+  transition: all 0.2s ease-in-out;
+  stroke: var(--green);
 }
 
 @media (max-width: 1050px) {

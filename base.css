@@ -25,6 +25,7 @@
   --error-colour: #ff4242;
 
   /* Neutral */
+  --dark-black: #0b1524;
   --black: #1b2330;
   --gray: #c0c0c0;
 
@@ -46,8 +47,8 @@
 
   --navbar-text: 1rem;
 
-  --footer-body: 1.5rem;
-  --footer-body-line-height: unset;
+  --footer-body: 1rem;
+  --footer-body-line-height: 24px;
 
   --anchor-text: 1rem;
 
@@ -171,8 +172,6 @@ h3 {
 
     --testimonial-text: 0.625rem;
     --testimonial-line-height: 18px;
-
-    --footer-body: 1rem;
 
     --body-s: 0.875rem;
 
