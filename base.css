@@ -22,7 +22,7 @@
 
   --light-blue: #202a3c;
 
-  --error: #ff4242;
+  --error-colour: #ff4242;
 
   /* Neutral */
   --black: #1b2330;
@@ -51,6 +51,9 @@
 
   --anchor-text: 1rem;
 
+  --sub-form-text: 0.875rem;
+  --sub-form-text-line-height: 21px;
+
   --body-s: 1rem;
 
   --body-xs: 0.875rem;
@@ -60,6 +63,8 @@
   --testimonial-line-height: unset;
 
   --input: 0.75rem;
+
+  --error: 0.625rem;
 
   --small: 0.625rem;
   --small-line-height: 12px;
@@ -131,9 +136,18 @@ h3 {
   font-size: var(--input);
 }
 
+.error-text {
+  font-size: var(--error);
+}
+
 .footer-body-text {
   font-size: var(--footer-body);
   line-height: var(--footer-body-line-height);
+}
+
+.sub-form-text {
+  font-size: var(--sub-form-text);
+  line-height: var(--sub-form-text-line-height);
 }
 
 @media (max-width: 550px) {
